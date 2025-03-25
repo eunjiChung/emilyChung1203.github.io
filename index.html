@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://unpkg.com/typeit@8.8.7/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://kit.fontawesome.com/5a9e6cc073.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js" defer></script>
+
+    <title>Emily Portfolio</title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Emily's Web Developing Portfolio. Web and iOS Development."
+    />
+    <meta name="author" content="Emily" />
+    <meta
+      name="keywords"
+      content="Web Developer, Front-end, iOS Developer, Developer"
+    />
+
+    <!-- OG Tag -->
+    <meta property="og:title" content="Emily Portfolio" />
+    <meta
+      property="og:description"
+      content="Emily's Web Developing Portfolio. Web and iOS Development."
+    />
+    <meta property="og:image" content="./image/home/my_image" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- logo image -->
+        <div class="nav__logo">
+          <img class="nav__image" src="./images/logo.jpg" alt="YEON" />
+          <a href="#" class="nav__brand">Emily</a>
+        </div>
+
+        <!-- menu -->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <!-- Home -->
+      <section class="home container section" id="home">
+        <!-- Home Data -->
+        <div class="home__data">
+          <h2 id="typeit" class="home__title"></h2>
+
+          <a href="#contact" class="button">Contact</a>
+
+          <div class="home__social">
+            <a
+              href="https://github.com/eunjiChung"
+              target="_blank"
+              title="Emily Github"
+            >
+              <i class="fa-brands fa-github home__social-icon"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa-brands fa-youtube home__social-icon"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa-brands fa-instagram home__social-icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Home Image -->
+        <img
+          class="home__img"
+          src="./images/home/my_image.jpg"
+          alt="Emily Profile Image"
+        />
+      </section>
+
+      <!-- About -->
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
+
+        <div class="about__container container">
+          <img class="about__img" src="./images/about/yeon.jpg" alt="yeon" />
+
+          <div class="about__data">
+            <h3 class="about__subtitle">저는 이렇게 답합니다.</h3>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              fugit aut nihil ipsa vitae maxime,
+              <br /><br />
+              velit ullam repellat nulla error laboriosam esse quos commodi
+              <br /><br />
+              corporis, accusamus blanditiis incidunt dolore! Hic.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skill__container container">
+          <div>
+            <h3 class="skill__subtitle">Professional Skill</h3>
+            <p class="skill__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, harum. Deserunt quae sunt numquam ipsam neque, nam
+              illum quaerat exercitationem, accusantium consequuntur dolores
+              necessitatibus rem quas obcaecati aperiam eligendi error!
+            </p>
+            <div>
+              <article class="skill__data">
+                <div class="skill__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-swift skill__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">Swift</span>
+                </div>
+
+                <div>
+                  <!-- percentage -->
+                  <span class="skill__percentage">85%</span>
+                </div>
+
+                <progress
+                  class="skill__progress"
+                  id="html5"
+                  max="100"
+                  value="85"
+                ></progress>
+              </article>
+              <article class="skill__data">
+                <div class="skill__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-react skill__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">React</span>
+                </div>
+
+                <div>
+                  <!-- percentage -->
+                  <span class="skill__percentage">80%</span>
+                </div>
+
+                <progress
+                  class="skill__progress"
+                  id="html5"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+              <article class="skill__data">
+                <div class="skill__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-flutter skill__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">Flutter</span>
+                </div>
+
+                <div>
+                  <!-- percentage -->
+                  <span class="skill__percentage">95%</span>
+                </div>
+
+                <progress
+                  class="skill__progress"
+                  id="html5"
+                  max="100"
+                  value="95"
+                ></progress>
+              </article>
+              <article class="skill__data">
+                <div class="skill__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-html5 skill__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">Html5</span>
+                </div>
+
+                <div>
+                  <!-- percentage -->
+                  <span class="skill__percentage">90%</span>
+                </div>
+
+                <progress
+                  class="skill__progress"
+                  id="html5"
+                  max="100"
+                  value="90"
+                ></progress>
+              </article>
+            </div>
+          </div>
+
+          <div>
+            <img class="skills__img" src="./images/skill/desktop.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section class="work section" id="work">
+        <h2 class="section__title">Work</h2>
+        <div class="work__container container">
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/frontend-fly"
+            target="_blank"
+            title="프론트엔드 날개달기 강의"
+          >
+            <img
+              class="work__img"
+              src="./images/work/1.png"
+              alt="프론트엔드 날개달기 강의"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-basic"
+            target="_blank"
+            title="Vue3 완벽 마스터 - 기본편 강의"
+          >
+            <img
+              class="work__img"
+              src="./images/work/2.png"
+              alt="Vue3 완벽 마스터 - 기본편 강의"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-practice"
+            target="_blank"
+            title="Vue3 완벽 마스터 - 실전편 강의"
+          >
+            <img
+              class="work__img"
+              src="./images/work/3.png"
+              alt="Vue3 완벽 마스터 - 실전편 강의"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/quasar"
+            target="_blank"
+            title="퀘이사 완벽 마스터 강의"
+          >
+            <img
+              class="work__img"
+              src="./images/work/4.png"
+              alt="퀘이사 완벽 마스터 강의"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-firebase"
+            target="_blank"
+            title="Vue3 & Firebase 커뮤니티 풀스택 강의"
+          >
+            <img
+              class="work__img"
+              src="./images/work/5.png"
+              alt="Vue3 & Firebase 커뮤니티 풀스택 강의"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/nuxt"
+            target="_blank"
+            title="Vue3 끝판왕 : Nuxt3 완벽 마스터"
+          >
+            <img
+              class="work__img"
+              src="./images/work/6.png"
+              alt="Vue3 끝판왕 : Nuxt3 완벽 마스터"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__container container">
+          <form
+            id="contactForm"
+            name="contactForm"
+            class="contact__form"
+            action="/test"
+            method="post"
+          >
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+            <textarea
+              class="contact__input"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Content"
+              required
+            >
+            </textarea>
+            <button class="contact__button button">Submit</button>
+          </form>
+        </div>
+      </section>
+      <button class="floating-button" id="floatingButton">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__title">Emily</p>
+      <div class="footer__social">
+        <a
+          href="https://github.com/eunjiChung"
+          target="_blank"
+          title="Emily Github"
+        >
+          <i class="fa-brands fa-github footer__icon"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fa-brands fa-youtube footer__icon"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fa-brands fa-instagram footer__icon"></i>
+        </a>
+      </div>
+      <p class="footer__copy">
+        Copyright &copy; 2025 Emily All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
