@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" /> -->
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -17,7 +17,7 @@
     ></script>
     <script src="./js/main.js" defer></script>
 
-    <title>Emily Portfolio</title>
+    <title>Emily's Portfolio</title>
 
     <!-- SEO -->
     <meta
@@ -34,7 +34,7 @@
     <meta property="og:title" content="Emily Portfolio" />
     <meta
       property="og:description"
-      content="Emily's Web Developing Portfolio. Web and iOS Development."
+      content="Emily's Developing Portfolio. Web and iOS Development."
     />
     <meta property="og:image" content="./image/home/my_image" />
     <meta property="og:url" content="https://emilyChung1203.github.io" />
@@ -43,10 +43,8 @@
   <body>
     <header class="header">
       <nav class="nav container">
-        <!-- logo image -->
         <div class="nav__logo">
-          <img class="nav__image" src="./images/logo.jpg" alt="YEON" />
-          <a href="#" class="nav__brand">Emily</a>
+          <a href="#" class="nav__brand">Emily's Portfolio</a>
         </div>
 
         <!-- menu -->
@@ -92,11 +90,8 @@
             >
               <i class="fa-brands fa-github home__social-icon"></i>
             </a>
-            <a href="" target="_blank">
-              <i class="fa-brands fa-youtube home__social-icon"></i>
-            </a>
-            <a href="" target="_blank">
-              <i class="fa-brands fa-instagram home__social-icon"></i>
+            <a href="https://linkedin.com/in/eunji1203" target="_blank">
+              <i class="fa-brands fa-linkedin home__social-icon"></i>
             </a>
           </div>
         </div>
@@ -114,17 +109,20 @@
         <h2 class="section__title">About</h2>
 
         <div class="about__container container">
-          <img class="about__img" src="./images/about/yeon.jpg" alt="yeon" />
+          <img class="about__img" src="./images/about/emily.jpg" alt="Emily" />
 
           <div class="about__data">
-            <h3 class="about__subtitle">저는 이렇게 답합니다.</h3>
+            <h3 class="about__subtitle">
+              Cross-industry iOS, built with craft.
+            </h3>
             <p class="about__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-              fugit aut nihil ipsa vitae maxime,
-              <br /><br />
-              velit ullam repellat nulla error laboriosam esse quos commodi
-              <br /><br />
-              corporis, accusamus blanditiis incidunt dolore! Hic.
+              iOS Developer with 6+ years of experience in B2C mobile app
+              development. Contributed to large-scale platforms including
+              Korea's top freelance marketplace and a global community service
+              with over 9 million users. Skilled in Swift, Objective-C, Clean
+              Architecture, CI/CD pipelines, and Test-Driven Development.
+              Developed over 30 apps including top-ranking personal projects.
+              Passionate about building scalable, user-centric products.
             </p>
           </div>
         </div>
@@ -137,31 +135,31 @@
         <div class="skill__container container">
           <div>
             <h3 class="skill__subtitle">Professional Skill</h3>
-            <p class="skill__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, harum. Deserunt quae sunt numquam ipsam neque, nam
-              illum quaerat exercitationem, accusantium consequuntur dolores
-              necessitatibus rem quas obcaecati aperiam eligendi error!
-            </p>
             <div>
               <article class="skill__data">
-                <div class="skill__names">
-                  <!-- icon -->
-                  <i class="fa-brands fa-swift skill__icon"></i>
-                  <!-- skill name -->
-                  <span class="skill__name">Swift</span>
+                <div class="skill__top">
+                  <div class="skill__names">
+                    <!-- icon -->
+                    <i class="fa-brands fa-html5 skill__icon"></i>
+                    <!-- skill name -->
+                    <span class="skill__name">Html/CSS/JS</span>
+                  </div>
+                  <div>
+                    <!-- percentage -->
+                    <span class="skill__percentage">90%</span>
+                  </div>
                 </div>
 
-                <div>
-                  <!-- percentage -->
-                  <span class="skill__percentage">85%</span>
-                </div>
+                <p class="skill__description">
+                  웹 프론트엔드의 기초를 탄탄히 다져 다양한 UI 구현이
+                  가능합니다.
+                </p>
 
                 <progress
                   class="skill__progress"
                   id="html5"
                   max="100"
-                  value="85"
+                  value="90"
                 ></progress>
               </article>
               <article class="skill__data">
@@ -175,6 +173,26 @@
                 <div>
                   <!-- percentage -->
                   <span class="skill__percentage">80%</span>
+                </div>
+
+                <progress
+                  class="skill__progress"
+                  id="html5"
+                  max="100"
+                  value="95"
+                ></progress>
+              </article>
+              <article class="skill__data">
+                <div class="skill__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-swift skill__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">Swift & Objective-C</span>
+                </div>
+
+                <div>
+                  <!-- percentage -->
+                  <span class="skill__percentage">85%</span>
                 </div>
 
                 <progress
@@ -201,27 +219,7 @@
                   class="skill__progress"
                   id="html5"
                   max="100"
-                  value="95"
-                ></progress>
-              </article>
-              <article class="skill__data">
-                <div class="skill__names">
-                  <!-- icon -->
-                  <i class="fa-brands fa-html5 skill__icon"></i>
-                  <!-- skill name -->
-                  <span class="skill__name">Html5</span>
-                </div>
-
-                <div>
-                  <!-- percentage -->
-                  <span class="skill__percentage">90%</span>
-                </div>
-
-                <progress
-                  class="skill__progress"
-                  id="html5"
-                  max="100"
-                  value="90"
+                  value="85"
                 ></progress>
               </article>
             </div>
@@ -239,28 +237,20 @@
         <div class="work__container container">
           <a
             class="work__link"
-            href="https://www.gymcoding.co/courses/frontend-fly"
+            href="https://apps.apple.com/kr/app/크몽-프리랜서-마켓-no-1/id1039179300"
             target="_blank"
-            title="프론트엔드 날개달기 강의"
+            title="KMONG"
           >
-            <img
-              class="work__img"
-              src="./images/work/1.png"
-              alt="프론트엔드 날개달기 강의"
-            />
+            <img class="work__img" src="./images/work/1.png" alt="KMONG" />
           </a>
 
           <a
             class="work__link"
-            href="https://www.gymcoding.co/courses/vue-basic"
+            href="https://apps.apple.com/kr/app/블라인드-blind/id737534965"
             target="_blank"
-            title="Vue3 완벽 마스터 - 기본편 강의"
+            title="TeamBlind"
           >
-            <img
-              class="work__img"
-              src="./images/work/2.png"
-              alt="Vue3 완벽 마스터 - 기본편 강의"
-            />
+            <img class="work__img" src="./images/work/2.png" alt="TeamBlind" />
           </a>
 
           <a
@@ -278,15 +268,11 @@
 
           <a
             class="work__link"
-            href="https://www.gymcoding.co/courses/quasar"
+            href="https://apps.apple.com/kr/app/블릿-블라인드가-만든-소개팅-앱/id1522829756"
             target="_blank"
-            title="퀘이사 완벽 마스터 강의"
+            title="Bleet"
           >
-            <img
-              class="work__img"
-              src="./images/work/4.png"
-              alt="퀘이사 완벽 마스터 강의"
-            />
+            <img class="work__img" src="./images/work/4.png" alt="Bleet" />
           </a>
 
           <a
@@ -350,8 +336,7 @@
               rows="10"
               placeholder="Content"
               required
-            >
-            </textarea>
+            ></textarea>
             <button class="contact__button button">Submit</button>
           </form>
         </div>
@@ -362,7 +347,7 @@
     </main>
 
     <footer class="footer">
-      <p class="footer__title">Emily</p>
+      <p class="footer__title">Emily's Portfolio</p>
       <div class="footer__social">
         <a
           href="https://github.com/eunjiChung"
@@ -371,11 +356,8 @@
         >
           <i class="fa-brands fa-github footer__icon"></i>
         </a>
-        <a href="" target="_blank">
-          <i class="fa-brands fa-youtube footer__icon"></i>
-        </a>
-        <a href="" target="_blank">
-          <i class="fa-brands fa-instagram footer__icon"></i>
+        <a href="https://linkedin.com/in/eunji1203" target="_blank">
+          <i class="fa-brands fa-linkedin home__social-icon"></i>
         </a>
       </div>
       <p class="footer__copy">

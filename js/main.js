@@ -71,9 +71,9 @@ const typeit = new TypeIt('#typeit', {
 });
 
 typeit
-  .type('안녕하세요! <br />')
-  .type('<strong class="home_title-color">코딩 교육 크리에이터</strong><br />')
-  .type('<strong class="home_title-color">Emily</strong> 입니다.')
+  .type('KEEP CODING<br />')
+  .type('<strong>MEET</strong><br />')
+  .type('<strong class="home_title-color">THE NEW WORLD</strong>')
   .go();
 
 // Email Client
@@ -84,7 +84,7 @@ $contactForm.addEventListener('submit', function (event) {
   const name = $contactForm.name.value;
   const subject = $contactForm.subject.value;
   const message = $contactForm.message.value;
-  const to = 'twih1203@gmail.com';
+  const to = 'emily.eunji.chung@gmail.com';
 
   location.href = `mailto:${to}?subject=${subject}&body=${message} From ${name} :`;
 });
