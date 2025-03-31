@@ -402,6 +402,7 @@ html {
   width: 100%;
   transition: 0.5s;
   display: block;
+  object-fit: contain;
 }
 
 .work__link {
